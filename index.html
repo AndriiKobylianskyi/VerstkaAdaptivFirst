@@ -17,6 +17,7 @@
 
         <nav>
             <div class="container">
+
                 <ul class="menu">
                     <li class="menu_item"><a href="#" class="menu_link">Головна</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Зі своїм авто</a></li>
@@ -26,34 +27,43 @@
                     <li class="menu_item"><a href="#" class="menu_link">Залишити заявку</a></li>
                 </ul>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
+
         <span class="icon-pencil"></span>
         <div class="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="" class="subheader_logo"><img src="/icons/UberLogo.png" alt="UberLogo"></a>
                         <div class="subheader_official">Офіційний партнер Убер в оркостані</div>
                     </div>
 
-                    <div class="col-md-2 offset-md-2">
+                    <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader_call">Телефонуйте нам щоденно</div>
                         <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-6 col-md-3">
+                        <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
                         <button class="subheader_btn">Замовити дзвінок</button>
                     </div>
                 </div>
 
             </div>
+
+
         </div>
     </header>
 
-    <div class="section promo">
+    <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
                     <h1 class="promo_header">КОМПАНІЯ UBER PARTNERS!</h1>
                     <h2 class="promo_subheader">ЗАПРОШУЄМО ВОДІЇВ! НА СВОЄМУ АВТО!</h2>
                     <div class="promo_descr">
@@ -71,7 +81,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <section class="reasons">
         <div class="container">
@@ -249,20 +259,7 @@
         </div>
     </section>
 
-    <section class="choice">
-        <div class="dark_podlojka">
-            <div class="container">
-                <div class="label label_white">Можливості</div>
-                <div class="title title_white">Вибір, чудова штука</div>
-                <div class="subtitle subtitle_white">Закажи авто, яке підходить по стилю</div>
-                <img src="/img/car.png" alt="car" class="choice_img">
-            </div>
-        </div>
-        <div class="white_podlojka">
-            <div class="container">
-                <div class="choice_descr">Машини на кожен день. Краще, швидше та дешевше чим таксі.</div>
-            </div>
-        </div>
+   
 
 
     </section>
@@ -330,23 +327,20 @@
         </div>
     </section>
 
-    <section class="aroundTheWorld">
+    <section class="world">
         <div class="container">
-            <div class="aroundTheWorld_block">
-                <div class="label label_white">Міста</div>
-                <div class="title title_white">По всьому світу</div>
-                <div class="subtitle subtitle_white">Ми в вашому місті і по всьому світу</div>
-                <a href="#" class="aroundTheWorld_seeAll">Подивитись усі міста</a>
-            </div>
+            <div class="label label_white label_min">города</div>
+            <h2 class="title title_white">По всему миру</h2>
+            <div class="subtitle subtitle_white">Мы в вашем городе и по всему миру</div>
 
+            <a href="#" class="world_link">посмотреть все города</a>
         </div>
-
     </section>
 
     <footer>
         <div class="footer_divider"></div>
         <div class="footer_wrapper">
-            <!-- Если не оборачивать каждый блок в обертку - получится криво -->
+
             <div>
                 <div class="footer_social">
                     <a href="#" class="footer_social_item">
@@ -383,15 +377,21 @@
             <div>
                 <div class="footer_mobile">
                     <a href="#">
-                        <img src="img/As.png" alt="App Store">
+                        <img src="img/app_store.png" alt="App Store">
                     </a>
-
+                    <a href="#">
+                        <img src="img/google_play.png" alt="Google play">
+                    </a>
+                    <a href="#">
+                        <img src="img/windows_store.png" alt="Windows store">
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
     </div>
     <script src="https://kit.fontawesome.com/45b4ff17e9.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
